@@ -1,0 +1,20 @@
+{
+  "defaultCommandTimeout": 10000,
+  "baseUrl": "https://opensource-demo.orangehrmlive.com/",
+  "env": {},
+  "testFiles": "**/*.feature",
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  },
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir":"cypress/reports",
+    "reportFilename":"report",
+    "overwrite": true,
+    "html": true,
+    "json": true,
+    "charts":true
+
+  }
+}
