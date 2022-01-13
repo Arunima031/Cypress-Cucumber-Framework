@@ -23,7 +23,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
   beforeEach(() => {
     cy.log('I run before every test in every spec file!!!!!!')
-  cy.clearCookies()
+    cy.clearCookies()
   })
+
+ 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
