@@ -6,8 +6,8 @@
   "scripts": {
     "testOpen": "cypress open",
     "test": "node_modules\\.bin\\cypress run",
-    "headTest": "npm run test --headed",
-    "chromeTest": "npm run test --headed --browser chrome"
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --headed --browser chrome"
   },
   "author": "Arunima",
   "license": "ISC",

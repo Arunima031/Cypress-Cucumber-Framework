@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-15T14:37:46.217Z",
-    "end": "2021-10-15T14:38:00.401Z",
-    "duration": 14184,
+    "start": "2022-01-14T12:40:18.235Z",
+    "end": "2022-01-14T12:40:33.214Z",
+    "duration": 14979,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "00f52470-5483-4101-8ed9-66c7340d4dc2",
+      "uuid": "988e4c12-3743-4746-9917-4d61f6f2ee7c",
       "title": "",
       "fullFile": "cypress/integration/Login.feature",
       "file": "cypress/integration/Login.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6d691d04-70ca-4f4b-a52a-572d8e30063c",
+          "uuid": "e5b5550d-9bef-4b31-93aa-fce02d6c9120",
           "title": "Login Feature",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Valid Login",
               "fullTitle": "Login Feature Valid Login",
               "timedOut": null,
-              "duration": 10961,
+              "duration": 9844,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "1b6b059f-353c-4dc8-8a2c-d752fc1ead95",
-              "parentUUID": "6d691d04-70ca-4f4b-a52a-572d8e30063c",
+              "uuid": "714bfd42-1a06-4d8e-b060-e751bd1959c6",
+              "parentUUID": "e5b5550d-9bef-4b31-93aa-fce02d6c9120",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Invalid Login",
               "fullTitle": "Login Feature Invalid Login",
               "timedOut": null,
-              "duration": 3133,
+              "duration": 3219,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "96098585-226d-42df-8347-3606e852a9b7",
-              "parentUUID": "6d691d04-70ca-4f4b-a52a-572d8e30063c",
+              "uuid": "76da799b-1965-4617-b53d-571eec1aa268",
+              "parentUUID": "e5b5550d-9bef-4b31-93aa-fce02d6c9120",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "1b6b059f-353c-4dc8-8a2c-d752fc1ead95",
-            "96098585-226d-42df-8347-3606e852a9b7"
+            "714bfd42-1a06-4d8e-b060-e751bd1959c6",
+            "76da799b-1965-4617-b53d-571eec1aa268"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14094,
+          "duration": 13063,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

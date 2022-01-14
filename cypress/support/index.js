@@ -24,6 +24,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   beforeEach(() => {
     cy.log('I run before every test in every spec file!!!!!!')
     cy.clearCookies()
+    cy.fixture('testdata').then(function(testdata) {
+    this.testdata = testdata
+    })
   })
 
  
